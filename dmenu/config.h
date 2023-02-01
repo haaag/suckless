@@ -11,17 +11,17 @@ static const char *fonts[] = {
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
             /*     fg         bg       */
-	[SchemeNorm] = { "#CAD3F5", "#24273A" },
-	[SchemeSel] = { "#CAD3F5", "#4e5173" },
-	[SchemeSelHighlight] = { "#24273A", "#8BD5CA" },
-	[SchemeNormHighlight] = { "#24273A", "#8BD5CA" },
-	[SchemeOut] = { "#24273A", "#A6DA95" },
+	/* [SchemeNorm] = { "#CAD3F5", "#24273A" }, */
+	/* [SchemeSel] = { "#CAD3F5", "#4e5173" }, */
+	/* [SchemeSelHighlight] = { "#24273A", "#cc241d" }, */
+	/* [SchemeNormHighlight] = { "#24273A", "#8BD5CA" }, */
+	/* [SchemeOut] = { "#24273A", "#A6DA95" }, */
 
-	// [SchemeNorm] = { "#d4be98", "#282828" },
-	// [SchemeSel] = { "#d4be98", "#282828" },
-	// [SchemeSelHighlight] = { "#cc241d", "#32302f" },
-	// [SchemeNormHighlight] = { "#458588", "#32302f" },
-	// [SchemeOut] = { "#1D2021", "#A9B665" },
+	[SchemeNorm] = { "#d4be98", "#282828" },
+	[SchemeSel] = { "#d4be98", "#282828" },
+	[SchemeSelHighlight] = { "#fabd2f", "#282828" },
+	[SchemeNormHighlight] = { "#fabd2f", "#282828" },
+	[SchemeOut] = { "#1D2021", "#A9B665" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
